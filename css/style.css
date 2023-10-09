@@ -1833,6 +1833,49 @@ a.article-title:active {
 .comment-card .vempty {
   color: var(--neut-L30) !important;
 }
+.el-input-group__prepend,
+.tk-comments-count,
+.tk-nick.tk-nick-link,
+.tk-time,
+.tk-content,
+.el-input__count,
+.el-button.tk-preview.el-button--default.el-button--small,
+.el-button.tk-cancel.el-button--default.el-button--small,
+.el-input__inner,
+.tk-input.el-textarea,
+.tk-preview-container,
+.tk-actions,
+.tk-comments-no {
+  color: var(--neut-L90) !important;
+}
+.tk-admin-comment-filter-type {
+  text-align: center;
+}
+.tk-footer {
+  padding-bottom: 2em;
+}
+.tk-content img {
+  max-width: 100% !important;
+}
+.tk-content pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.tk-footer a {
+  color: var(--link) !important;
+}
+.tk-replies .tk-avatar {
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+}
+.tk-replies .tk-avatar img {
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+}
+.tk-comments-container .tk-submit {
+  position: relative;
+  left: -70px;
+}
 .archives-wrap {
   margin: 16px 0;
 }
